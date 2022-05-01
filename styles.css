@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Patrick Hand', cursive;
     color: rgb(0, 0, 0);
+    border-color: #4438ea;
 }
 
 body {
@@ -19,14 +20,15 @@ body {
 
 table{
     text-align: center;
+    width: 80%;
     border-collapse: collapse;
     border: 1px solid black;
 }
 
 tr {
     transition: all 0.3s ease;
-    cursor: pointer;
     border: 1px solid black;
+    padding: 15px;
 }
 td{
     border: 1px solid black;
@@ -42,7 +44,9 @@ tr:nth-child(odd) {
 
 thead {
     background-color: rgba(255, 255, 255, 0.31);
+    
     font-style: oblique;
+    font-weight: bolder;
 }
 
 tr:hover {
