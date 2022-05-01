@@ -15,8 +15,9 @@
 <h2>GoogleCloudReady Facilitator Program Leaderboard - Mukesh Patel School of Technology Management & Engineering</h2>
 <br>
 <p>Updated on May 01 2022 | 15:06:00 IST</p>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
 <br><br>
-<table>
+<table id="table">
     <thead>
         <tr>
             <td>Rank</td>
@@ -1702,5 +1703,28 @@
         </tr>
     </tbody>
 </table>
+
+<script>
+    function myFunction() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("table");
+      tr = table.getElementsByTagName("tr");
+
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[1];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }
+      }
+    }
+    </script>
+
 </body>
 </html>
