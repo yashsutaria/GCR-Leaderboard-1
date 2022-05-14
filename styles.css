@@ -9,47 +9,67 @@
 body {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right bottom, #828282, #839fb5, #5fc5d0, #73e7b8, #d6fb84);
+    background-image: url('res/clouds.jpg');
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+
+a:link, a:visited {
+    background-color: #390ff3;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+    align-self: flex-end;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
+
 table{
     text-align: center;
     width: 80%;
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 tr {
     transition: all 0.3s ease;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 15px;
+    font-weight: bold;
 }
 td{
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 tr:nth-child(even) {
-    background-color: rgba(95, 197, 208, 0.21);
+    background-color: rgba(95, 197, 208, 0.41);
 }
 
 tr:nth-child(odd) {
-    background-color: rgba(55, 131, 138, 0.17);
+    background-color: rgba(55, 131, 138, 0.37);
 }
 
 thead {
-    background-color: rgba(255, 255, 255, 0.31);
-    
+    background-color: rgba(226, 213, 255, 0.259);
     font-style: oblique;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
 }
 
 tr:hover {
-    background-color: #652479;
+    background-color: #fdfdfd;
     transform: scale(1.1);
 }
 
@@ -61,13 +81,26 @@ tr:hover svg {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png');
     background-position: 10px 12px; 
     background-repeat: no-repeat;
-    width: 100%; 
+    width: 80%; 
     font-size: 16px;
     padding: 12px 20px 12px 40px; 
     border: 1px solid #ddd;
     margin-bottom: 12px; 
   }
+  div{
+      visibility: hidden;
+  }
 
-  h2,input{
+  input{
       margin-top: 25px;
+      font-weight: bold;
+     }
+    h2{
+        margin-top: 25px;
+        color: yellow;
+    }
+  p{
+      font-weight: bolder;
+      font-size: large;
+      color: yellow;
   }
