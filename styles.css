@@ -105,7 +105,15 @@ tr:hover svg {
   input{
       margin-top: 10px;
       font-weight: bold;
-     }
+      border-radius: 16px;
+      background-color: #303036;
+    }
+
+::placeholder {
+    color: white;
+    opacity: 0.94;
+}
+    
     h1{
         font-family: 'Crimson Text', serif;
         font-size: 46px;
@@ -127,8 +135,9 @@ tr:hover svg {
   }
 
   h3 {
-      font-size: 35px;
+      font-size: 30px;
       font-family: 'Crimson Text', serif;
+      font-weight: 400;
       color: #303036;
       align-self: flex-start;
       margin-left: 150px;
