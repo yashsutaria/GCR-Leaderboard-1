@@ -37,8 +37,8 @@ a:link, a:visited {
     align-self:flex-end;
     text-decoration: none;
     margin-right: 10vh;
-    padding: 8px;
-    border-radius: 4px;
+    padding: 10px;
+    border-radius: 15px;
     display: inline-block;
   }
 
