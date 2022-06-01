@@ -95,9 +95,16 @@ tr:hover svg {
       margin-top: 25px;
       font-weight: bold;
      }
+    h1{
+        font-family: 'Crimson Text', serif;
+        font-size: 46px;
+        font-weight: 300;
+        margin-top: 50px;
+        color: black;
+    }
     h2{
-        margin-top: 25px;
-        color: yellow;
+        margin-top: 20px;
+        color: black;
     }
   p{
       font-weight: bolder;
