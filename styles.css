@@ -152,15 +152,16 @@ tr:hover svg {
     height: 300px;
   }
    
-  b{
-    background-color: #FC5130;
-    color: white;
+  button{
+    background-color: #30BCED;
+    font-size: 18px;
+    color: black;
     text-align: center;
     align-self:flex-start;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 120px;
-    padding: 8px;
+    padding: 12px;
     border-radius: 15px;
     font-family: 'Crimson Text', serif;
   }
