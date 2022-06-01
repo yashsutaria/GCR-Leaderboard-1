@@ -143,3 +143,24 @@ tr:hover svg {
       margin-left: 150px;
       margin-bottom: 0%;
   }
+
+  #bcd {
+    background-color: #303036;
+    width: 100%;
+    display: flex;
+    margin-top: 0 auto;
+    height: 300px;
+  }
+   
+  b{
+    background-color: #FC5130;
+    color: white;
+    text-align: center;
+    align-self:flex-start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 120px;
+    padding: 8px;
+    border-radius: 15px;
+    font-family: 'Crimson Text', serif;
+  }
