@@ -28,26 +28,27 @@ body {
     flex-direction: column;
 }
 
+a{
+    display: inline-flex;
+}
 
 a:link, a:visited {
     background-color: #FC5130;
     color: white;
     text-align: center;
-    margin-top: 10px;
     align-self:flex-end;
+    margin-top: 10px;
     text-decoration: none;
     margin-right: 10vh;
-    padding: 10px;
+    padding: 12px;
     border-radius: 15px;
-    display: inline-block;
+    
+    font-family: 'Crimson Text', serif;
   }
 
-  .inner {
-      display: inline-block;
-  }
   
   a:hover, a:active {
-    background-color: red;
+    background-color: #FD6749;
   }
 
 
