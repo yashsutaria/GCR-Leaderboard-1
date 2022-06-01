@@ -18,7 +18,7 @@ body {
 }
 
 #abc {
-    background-color: aquamarine;
+    background-color: #303036;
     width: 100%;
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
@@ -30,15 +30,20 @@ body {
 
 
 a:link, a:visited {
-    background-color: #390ff3;
+    background-color: #FC5130;
     color: white;
-    padding: 12px 12px;
     text-align: center;
-    text-decoration:wavy;
-    display: inline-flex;
-    margin-right: 15px;
     margin-top: 10px;
-    align-self: flex-end;
+    align-self:flex-end;
+    text-decoration: none;
+    margin-right: 10vh;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+
+  .inner {
+      display: inline-block;
   }
   
   a:hover, a:active {
@@ -110,17 +115,17 @@ tr:hover svg {
         font-size: 46px;
         font-weight: 450;
         margin-top: 50px;
-        color: black;
+        color: #FFFAFF;
     }
     h2{
         font-family: 'Crimson Text', serif;
         font-size: 25px;
         font-weight: 300;
         margin-top: 10px;
-        color: black;
+        color: #FFFAFF;
     }
   p{
       font-weight: bolder;
       font-size: large;
-      color: black;
+      color: #FFFAFF;
   }
