@@ -162,6 +162,9 @@ tr:hover svg {
     margin-bottom: 40px;
     margin-left: 120px;
     padding: 12px;
-    border-radius: 15px;
-    font-family: 'Crimson Text', serif;
+    border-radius: 15px;    
   }
+#lol {
+    cursor: pointer;
+    font-family: 'Crimson Text', serif;
+}
