@@ -29,7 +29,7 @@ body {
 }
 
 a:link, a:visited {
-    background-color: #FC5130;
+    background-color: #3c3c44;
     color: white;
     text-align: center;
     align-self:flex-end;
@@ -37,7 +37,7 @@ a:link, a:visited {
     text-decoration: none;
     margin-right: 10vh;
     padding: 12px;
-    border-radius: 15px;
+    border-radius: 200px;
     font-family: 'Crimson Text', serif;
   }
 
@@ -184,10 +184,4 @@ h4 {
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 120px;
-}
-
-b:link b:active {
-    padding :10px;
-    background-color: #303036;
-    border-radius: 15px;
 }
