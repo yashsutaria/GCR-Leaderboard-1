@@ -88,6 +88,7 @@ tr:hover svg {
     opacity: 1;
     transform: scale(1.2);
 }
+
 #myInput {
     background-position: 10px 12px; 
     background-repeat: no-repeat;
