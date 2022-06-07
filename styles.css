@@ -9,7 +9,6 @@
 body {
     width: 100%;
     height: 100vh;
-    background-image: url('res/clouds.jpg');
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,21 +17,33 @@ body {
     flex-direction: column;
 }
 
+#top {
+    background-color: #303036;
+    width: 100%;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 a:link, a:visited {
-    background-color: #390ff3;
+    background-color: #FC5130;
     color: white;
-    padding: 14px 25px;
     text-align: center;
+    align-self:flex-end;
+    margin-top: 10px;
     text-decoration: none;
-    display: inline-block;
-    margin-right: 30px;
-    margin-top: 30px;
-    align-self: flex-end;
+    margin-right: 10vh;
+    padding: 12px;
+    border-radius: 15px;
+    font-family: 'Crimson Text', serif;
   }
+
   
   a:hover, a:active {
-    background-color: red;
+    background-color: #FD6749;
   }
 
 
@@ -78,7 +89,6 @@ tr:hover svg {
     transform: scale(1.2);
 }
 #myInput {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png');
     background-position: 10px 12px; 
     background-repeat: no-repeat;
     width: 80%; 
@@ -87,20 +97,77 @@ tr:hover svg {
     border: 1px solid #ddd;
     margin-bottom: 12px; 
   }
+  
   div{
       visibility: hidden;
   }
 
   input{
-      margin-top: 25px;
+      margin-top: 10px;
       font-weight: bold;
-     }
+      border-radius: 16px;
+      background-color: #303036;
+    }
+
+::placeholder {
+    color: white;
+    opacity: 0.94;
+}
+    
+    h1{
+        font-family: 'Crimson Text', serif;
+        font-size: 46px;
+        font-weight: 450;
+        margin-top: 50px;
+        color: #FFFAFF;
+    }
     h2{
-        margin-top: 25px;
-        color: yellow;
+        font-family: 'Crimson Text', serif;
+        font-size: 25px;
+        font-weight: 300;
+        margin-top: 10px;
+        color: #FFFAFF;
     }
   p{
       font-weight: bolder;
       font-size: large;
-      color: yellow;
+      color: #FFFAFF;
   }
+
+  h3 {
+      font-size: 30px;
+      font-family: 'Crimson Text', serif;
+      font-weight: 400;
+      color: #303036;
+      align-self: flex-start;
+      margin-left: 150px;
+      margin-bottom: 0%;
+  }
+
+  #bottom {
+    background-color: #303036;
+    width: 100%;
+    display: flex;
+    margin-top: 0 auto;
+    height: 300px;
+  }
+   
+  button{
+    background-color: #30BCED;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    align-self:flex-start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 120px;
+    padding: 12px;
+    border-radius: 15px;    
+  }
+  button:hover {
+      background-color: #4438ea;
+  }
+#bid {
+    cursor: pointer;
+    font-family: 'Crimson Text', serif;
+}
