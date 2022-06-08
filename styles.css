@@ -29,15 +29,16 @@ body {
 }
 
 a:link, a:visited {
-    background-color: #FC5130;
+    background-color: #3c3c44;
     color: white;
     text-align: center;
     align-self:flex-end;
     margin-top: 10px;
+    margin-bottom: 10px;
     text-decoration: none;
     margin-right: 10vh;
     padding: 12px;
-    border-radius: 15px;
+    border-radius: 200px;
     font-family: 'Crimson Text', serif;
   }
 
@@ -92,7 +93,7 @@ tr:hover svg {
     background-position: 10px 12px; 
     background-repeat: no-repeat;
     width: 80%; 
-    color: yellow;
+    color: #ffff89;
     font-size: 16px;
     padding: 12px 20px 12px 40px; 
     border: 1px solid #ddd;
@@ -148,7 +149,7 @@ tr:hover svg {
   #bottom {
     background-color: #303036;
     width: 100%;
-    display: flex;
+    display:inline-flex;
     margin-top: 0 auto;
     height: 300px;
   }
@@ -160,7 +161,7 @@ tr:hover svg {
     text-align: center;
     align-self:flex-start;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-left: 120px;
     padding: 12px;
     border-radius: 15px;    
@@ -171,4 +172,17 @@ tr:hover svg {
 #bid {
     cursor: pointer;
     font-family: 'Crimson Text', serif;
+}
+
+h4 {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    align-items: flex-end;
+    align-self: flex-end;
+    align-content:flex-end;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 120px;
 }
