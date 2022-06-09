@@ -73,10 +73,12 @@ tr:nth-child(odd) {
 }
 
 thead {
-    background-color: rgba(226, 213, 255, 0.259);
+    background-color: white;
     font-style: oblique;
     color: rgb(255, 255, 255);
     font-weight: bolder;
+    position: sticky;
+    top: 0px;
 }
 
 tr:hover {
