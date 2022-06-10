@@ -4,7 +4,7 @@ function myFunction() {
     filter = input.value.toUpperCase();
     table = document.getElementById("table");
     tr = table.getElementsByTagName("tr");
-    for (i = 0; i < tr.length; i++) {
+    for (i = 1; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td")[1];
     if (td) {
         txtValue = td.textContent || td.innerText;
