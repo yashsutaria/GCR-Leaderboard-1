@@ -64,6 +64,10 @@ td{
    font-family: 'Crimson Text', serif;
 }
 
+#table2 th{
+    font-size: 18px;
+}
+
 #table2 tr:nth-child(even) {
     background-color: #FEE1C7;
     font-family: 'Crimson Text', serif;
