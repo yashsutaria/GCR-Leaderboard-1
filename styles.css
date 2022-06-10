@@ -74,6 +74,18 @@ td{
     
 }
 
+#table2 th{
+    font-size: 18px;
+}
+
+#table2 tr:nth-child(even) {
+    background-color: #FEE1C7;
+    font-family: 'Crimson Text', serif;
+}
+
+#table2 tr:nth-child(odd) {
+    background-color: #FB8D74;
+}
 tr:nth-child(even) {
     background-color: rgba(95, 197, 208, 0.41);
 }
@@ -83,10 +95,12 @@ tr:nth-child(odd) {
 }
 
 thead {
-    background-color: rgba(226, 213, 255, 0.259);
+    background-color: white;
     font-style: oblique;
     color: rgb(255, 255, 255);
     font-weight: bolder;
+    position: sticky;
+    top: 0px;
 }
 
 tr:hover {
@@ -110,9 +124,6 @@ tr:hover svg {
     margin-bottom: 12px; 
   }
   
-  div{
-      visibility: hidden;
-  }
 
   input{
       margin-top: 10px;
