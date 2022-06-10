@@ -15,6 +15,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #808080;
 }
 
 #top {
@@ -59,23 +60,46 @@ tr {
     transition: all 0.3s ease;
     padding: 15px;
     font-weight: bold;
+    border-collapse: collapse;
+    border: 1px solid black
 }
 td{
    font-size: 20px;
    font-family: 'Crimson Text', serif;
+   border-collapse: collapse;
+    border: 1px solid black
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 #table thead :first-child td{
     font-weight: 900;
     font-size: 22px;
-    background-color: #4a11e7ec;
-    color: #ddd;
+    background-color: #086aeb;
+    color: rgb(255, 255, 255);
     font-style: normal;
     font-weight: bolder;
     
 }
-
+th{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 #table2 th{
     font-size: 18px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #table2 tr:nth-child(even) {
@@ -161,7 +185,7 @@ tr:hover svg {
       font-size: 30px;
       font-family: 'Crimson Text', serif;
       font-weight: 400;
-      color: #303036;
+      color: #ffee00;
       align-self: flex-start;
       margin-left: 10%;
       margin-bottom: 0%;
