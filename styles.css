@@ -52,6 +52,7 @@ table{
     text-align: center;
     width: 80%;
     border-collapse: collapse;
+    border: 1px solid black
 }
 
 tr {
@@ -62,6 +63,15 @@ tr {
 td{
    font-size: 20px;
    font-family: 'Crimson Text', serif;
+}
+#table thead :first-child td{
+    font-weight: 900;
+    font-size: 22px;
+    background-color: #4a11e7ec;
+    color: #ddd;
+    font-style: normal;
+    font-weight: bolder;
+    
 }
 
 tr:nth-child(even) {
