@@ -15,7 +15,6 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #808080;
 }
 
 #top {
@@ -31,7 +30,7 @@ body {
 
 a:link, a:visited {
     background-color: #3c3c44;
-    color: white;
+    color: black;
     text-align: center;
     align-self:flex-end;
     margin-top: 10px;
