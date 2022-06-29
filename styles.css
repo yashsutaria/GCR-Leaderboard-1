@@ -113,18 +113,15 @@ th{
     background-color: #FEE1C7;
     font-family: 'Crimson Text', serif;
 }
-
 #table2 tr:nth-child(odd) {
     background-color: #FB8D74;
 }
 tr:nth-child(even) {
     background-color: rgba(95, 197, 208, 0.41);
 }
-
 tr:nth-child(odd) {
     background-color: rgba(55, 131, 138, 0.37);
 }
-
 thead {
     background-color: white;
     font-style: oblique;
@@ -133,17 +130,14 @@ thead {
     position: sticky;
     top: 0px;
 }
-
 tr:hover {
     background-color: #fdfdfd;
     transform: scale(1.1);
 }
-
 tr:hover svg {
     opacity: 1;
     transform: scale(1.2);
 }
-
 #myInput {
     background-position: 10px 12px; 
     background-repeat: no-repeat;
@@ -154,8 +148,6 @@ tr:hover svg {
     border: 1px solid #ddd;
     margin-bottom: 12px; 
   }
-  
-
   input{
       margin-top: 10px;
       font-weight: bold;
@@ -167,7 +159,6 @@ tr:hover svg {
     color: white;
     opacity: 0.94;
 }
-    
     h1{
         font-family: 'Crimson Text', serif;
         font-size: 46px;
@@ -187,7 +178,6 @@ tr:hover svg {
       font-size: large;
       color: #FFFAFF;
   }
-
   h3 {
       font-size: 30px;
       font-family: 'Crimson Text', serif;
@@ -197,15 +187,13 @@ tr:hover svg {
       margin-left: 10%;
       margin-bottom: 0%;
   }
-
   #bottom {
     background-color: #303036;
     width: 100%;
     display:inline-flex;
     margin-top: 0 auto;
     height: 300px;
-  }
-   
+  } 
   button{
     background-color: #30BCED;
     font-size: 18px;
@@ -225,7 +213,6 @@ tr:hover svg {
     cursor: pointer;
     font-family: 'Crimson Text', serif;
 }
-
 h4 {
     text-align: center;
     font-size: 18px;
