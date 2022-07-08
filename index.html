@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!--Google Font Used : -->
@@ -21,19 +22,25 @@
 -->
 <body>
 <section id="top" >
-<h1 style="align-self: flex-start; margin-left: 10%; margin-right: 10%;">GoogleCloudReady Facilitator Program Leaderboard</h1>
-<h2 style="align-self: flex-start; margin-left: 10%; margin-right: 10%;">Mukesh Patel School of Technology Management & Engineering</h2>
+    <div id="logo-content">
+        <img src="/res/logo.png" alt="logo-image"/>
+
+        <span class="headers">
+            <h1 style="align-self: flex-start; margin-left: 10%; margin-right: 10%;"><span id="heading" style="color: white;">GoogleCloudReady Facilitator Program Leaderboard</span></h1>
+            <h2 style="align-self: flex-start; margin-left: 10%; margin-right: 10%;">Mukesh Patel School of Technology Management & Engineering</h2>
 <br>
 <p style="align-self: flex-start; margin-left: 10%; margin-right: 10%;" >Last updated on July 07 2022 14:59 hrs.</p>
 <p style="align-self: flex-start; margin-left: 10%; margin-right: 10%;" >Updated at 14:59 hrs.</p>
 <p style="align-self: flex-start; margin-left: 10%; margin-right: 10%;" >Second Last Day to complete your labs, good luck!</p>
+</span>
+
+</div>
 
 
 <br>
 <a style="color: yellow;" target="_blank" href="https://events.withgoogle.com/googlecloudready-facilitator-program/#program-syllabus" >Program Syllabus</a>
 <a style="color: yellow;" target="_blank" href="https://github.com/guys-in-the-cloud/cloud-skill-boosts">Updated Solutions</a>
 <br><br>
-
 </section>
 <br>
 <h3>Leaderboard [Ultimate Milestone]</h3>
@@ -1876,5 +1883,20 @@
         <img src="https://contrib.rocks/image?repo=nityoday/GCR-leaderboard" alt="contributors" ">
     </a>
 </section>
+
+<script>
+//On change width insert text
+window.onresize = function(event) {
+    if(window.innerWidth <= 1200) {
+        document.getElementById("heading").innerText="GCR Leaderboard";
+    }
+  
+    else {
+        document.getElementById("heading").innerText="GoogleCloudReady Facilitator Program Leaderboard";
+    }
+}
+ 
+ 
+</script>
 </body>
 </html>
