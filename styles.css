@@ -238,7 +238,7 @@ Style for logo and its content!
     flex-wrap: wrap;
 }
 
-img{
+#logo{
     width:18%;
     height: auto;
     float: left;
@@ -264,7 +264,7 @@ img{
         flex-wrap: wrap;
     }
     
-    img{
+    #logo{
         width:50%;
     }
 }
